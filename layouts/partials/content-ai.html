@@ -1,0 +1,16 @@
+
+			<div id="container">
+			    <div class="outer">
+				<div id="blog-archives" class="category">
+				    <ul class="cp_list">
+					{{ range .Data.Pages.Reverse }}
+					<li>
+					    <a href="{{.Permalink}}">{{.Title}}</a>
+					</li>
+					{{ end }}
+				    </ul>
+				</div>
+			    </div>
+			</div>
+		</div>
+

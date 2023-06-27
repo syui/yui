@@ -1,0 +1,5 @@
+---
+title: "novel"
+type: novel
+---
+
