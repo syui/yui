@@ -1,8 +1,10 @@
 +++
 title = "manga"
 slug = "manga"
-aliases = "manga"
 description = "惑星で暮らすドラゴンと少女のお話"
 +++
 
-[![yui.manga](/img/manga_01.png)](https://manga.syui.ai)
+<link rel="stylesheet" href="/manga/app.css" />
+<div id=app></div>
+<script src=/manga/chunk-vendors.js></script>
+<script src=/manga/app.js></script>
