@@ -43,7 +43,7 @@ a.navbar-brand {
 
 span.icon-ai {
     color: #847e00;
-    padding: 15px;
+    padding: 10px;
     font-size: 22px;
 }
 
@@ -56,3 +56,19 @@ span.icon-ai {
     font-size: 20px;
     margin-left: 50px;
 }
+
+
+.top-menu {
+	margin: 50px 0px 20px 0px;
+}
+
+.top-menu a.menu-link {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.top-menu a.menu-link span.icon-ai {
+	color: #fff300;
+}
+
+

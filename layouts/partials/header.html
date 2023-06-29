@@ -1,7 +1,33 @@
 <body>
 	<div class="containerx">
+		{{ $s := path.Dir (.Permalink | relURL) }}
+		{{ $t := index (split $s "/") 2 }}
+		{{ $o := index (split $s "/") 1 }}
+
+		<div class="top-menu">
+		{{ if eq $o ""}}
+		<p>
+			<a class="menu-link" href="/"><span class="icon-ai"></span></a>
+			<a class="menu-link" href="https://bsky.app/profile/yui.syui.ai" target="_blank">@yui.syui.ai</a>
+			<a class="menu-link" href="https://card.syui.ai">card</a>
+			<a class="menu-link" href="https://manga.syui.ai">manga</a>
+		</p>
+			{{ else }}
+			<p><a href=""></a></p>
+		{{ end }}
+		</div>
+
 		<header id="header">
 			<div class="logo"> 
 				{{ partial "ai-star.html" . }}
 			</div>
 		</header>
+
+		{{ if eq $o ""}}
+		<span class="menu-right-top">
+			<!--
+			<a class="menu-link-left" href="/bitcoin"><i class="fa-brands fa-bitcoin"></i></a>
+			-->
+			<a class="menu-link-left" href="https://syui.fanbox.cc/shop"><i class="fa-solid fa-bag-shopping"></i></a>
+		</span>
+		{{ end }}

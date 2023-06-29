@@ -1,0 +1,15 @@
+{{ partial "head-ai.html" . }}
+<link rel="stylesheet" href="/css/img.css" />
+{{ partial "header.html" . }}
+	<div class="content">
+		{{ with .Resources.Match "book_*.png" }}
+			{{ range $index, $val := . }}
+			<p><a href="https://syui.booth.pm/items/4938622"><img src="{{ .RelPermalink }}"></a></p>
+			{{ end }}
+		{{ end }}
+
+	</div>
+</div>
+{{ partial "footer.html" . }}
+</body>
+</html>

@@ -1,10 +1,9 @@
 {{ partial "head-ai.html" . }}
-{{ partial "navbar-ai.html" . }}
 <link rel="stylesheet" href="/css/img.css" />
 {{ partial "header.html" . }}
 <article>
 	<div class="content">
-		{{ with .Resources.Match "*.webp" }}
+		{{ with .Resources.Match "yui_*.webp" }}
 		<div class="Carousel__slide">
 			<p>
 			{{ range . }}

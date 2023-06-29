@@ -31,3 +31,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
         publish_branch: main
+        user_name: 'ai[bot]'
+        user_email: '138105980+yui-syui-ai[bot]@users.noreply.github.com'
