@@ -56,3 +56,17 @@ span.icon-ai {
     font-size: 20px;
     margin-left: 50px;
 }
+
+
+.top-menu {
+    margin: 10px 0px;
+}
+
+.top-menu a.menu-link {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.top-menu a.menu-link span.icon-ai {
+	color: #fff300;
+}
