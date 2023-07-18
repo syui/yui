@@ -283,10 +283,33 @@ ul.cp_list li i.fas.fa-bars {
 }
 
 ul.cp_list li img {
-    float: left;
-				padding:7px;
+	float: left;
+	padding:7px;
 }
 
 .moji p img {
-    width: 128px;
+	width: 128px;
+}
+
+.bitcoin img {
+	width: 150px;
+	text-align: center;
+	/* float: left; */
+	padding: 10px;
+}
+
+.bitcoin {
+	text-align: center;
+}
+
+a.menu-link-left {
+	background-color: #fff;
+	padding: 10px;
+	margin: 0 0 0 5px;
+}
+
+span.menu-right-top {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
 }
