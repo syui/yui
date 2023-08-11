@@ -1,6 +1,6 @@
 $(function() {
 	var prompt = "[[b;#87cefa;]root][[b;#FFFF00;]@yui.syui.ai] ~$ ";
-	var command_all = ["ai","user"];
+	var command_all = ["ai"];
 
 	var ascii_ai = "\n\
 \n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⣁⠉⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\
@@ -48,14 +48,10 @@ $(function() {
 \n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⢀⠎⢠⠎⣠⣿⣿⣿⣿⣿⣿⣦⠀⡯⠀⠐⠧⠻⠛⠛⢋⢋⠋⠙⠛⠿⣿⢿⣷⡿⣿⣽⡿⠀⣷⠃⠀⣿⡿⣿⡿⣿⣽⣯⣷⣿⣿⡿⣿⣻⡇⢀⠹⣆⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\
 ";
 
-
-	function user_search(id) {
-		axios.get('https://api.syui.ai/users/' + id)
+		axios.get('https://card.syui.ai/json/card.json')
 			.then(function (response) {
-				user_data = JSON.stringify(response.data,null,"\t");
-				term.echo(user_data);
+				all_card = JSON.stringify(response.data,null,"\t");
 			})
-	}
 
 	function print_slowly(term, paragraph, callback) {
 		var foo, i, lines;
@@ -99,6 +95,8 @@ $(function() {
 			} else {
 				term.echo("user $id");
 			}
+		} else if (inputs[0] === 'card') {
+				term.echo(all_card);
 		} else {
 			term.error(command + " is not a valid command");
 		}
