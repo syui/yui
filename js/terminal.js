@@ -1,6 +1,6 @@
 $(function() {
-	var prompt = "[[b;#FFFF00;]@yui.syui.ai] ~$ ";
-	var command_all = ["ai"];
+	var prompt = "[[b;#87cefa;]root][[b;#FFFF00;]@yui.syui.ai] ~$ ";
+	var command_all = ["ai","user"];
 
 	var ascii_ai = "\n\
 \n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⣁⠉⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\
@@ -48,6 +48,15 @@ $(function() {
 \n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⢀⠎⢠⠎⣠⣿⣿⣿⣿⣿⣿⣦⠀⡯⠀⠐⠧⠻⠛⠛⢋⢋⠋⠙⠛⠿⣿⢿⣷⡿⣿⣽⡿⠀⣷⠃⠀⣿⡿⣿⡿⣿⣽⣯⣷⣿⣿⡿⣿⣻⡇⢀⠹⣆⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\
 ";
 
+
+	function user_search(id) {
+		axios.get('https://api.syui.ai/users/' + id)
+			.then(function (response) {
+				user_data = JSON.stringify(response.data,null,"\t");
+				term.echo(user_data);
+			})
+	}
+
 	function print_slowly(term, paragraph, callback) {
 		var foo, i, lines;
 		lines = paragraph.split("\n");
@@ -84,10 +93,16 @@ $(function() {
 		command = inputs[0];
 		if (inputs[0] === 'ai') {
 			print_slowly(term, ascii_ai);
-	} else {
-		term.error(command + " is not a valid command");
+		} else if (inputs[0] === 'user') {
+			if (inputs[1] != undefined) {
+				user_search(inputs[1]);
+			} else {
+				term.echo("user $id");
+			}
+		} else {
+			term.error(command + " is not a valid command");
+		}
 	}
-}
 
 function bash(inputs, term) {
 	var argument, echo, insert;
