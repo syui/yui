@@ -1,6 +1,8 @@
 $(function() {
-	var prompt = "[[b;#87cefa;]root][[b;#FFFF00;]@yui.syui.ai] ~$ ";
-	var command_all = ["ai","user"];
+	var prompt = "[[b;#87cefa;]ai][[b;#FFFF00;]@yui.syui.ai] ~$ ";
+	var tab = "[[b;#87cefa;]<tab>]";
+	var command_all = ["ai","bsky", "whoami"];
+	var handle = "yui.syui.ai";
 
 	var ascii_ai = "\n\
 \n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⣁⠉⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\
@@ -48,14 +50,20 @@ $(function() {
 \n⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⢀⠎⢠⠎⣠⣿⣿⣿⣿⣿⣿⣦⠀⡯⠀⠐⠧⠻⠛⠛⢋⢋⠋⠙⠛⠿⣿⢿⣷⡿⣿⣽⡿⠀⣷⠃⠀⣿⡿⣿⡿⣿⣽⣯⣷⣿⣿⡿⣿⣻⡇⢀⠹⣆⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿\
 ";
 
+	axios.get('https://card.syui.ai/json/card.json')
+		.then(function (response) {
+			all_card = JSON.stringify(response.data,null,"\t");
+		})
 
-	function user_search(id) {
-		axios.get('https://api.syui.ai/users/' + id)
-			.then(function (response) {
-				user_data = JSON.stringify(response.data,null,"\t");
-				term.echo(user_data);
-			})
-	}
+	axios.get('https://bsky.social/xrpc/com.atproto.repo.listRecords?repo=' + handle + '&collection=app.bsky.feed.post&limit=1')
+		.then(function (response) {
+			timeline = JSON.stringify(response.data.records[0].value,null,"\t");
+		})
+
+	axios.get('/json/u.json')
+		.then(function (response) {
+			user_profile = JSON.stringify(response.data,null,"\t");
+		})
 
 	function print_slowly(term, paragraph, callback) {
 		var foo, i, lines;
@@ -93,14 +101,17 @@ $(function() {
 		command = inputs[0];
 		if (inputs[0] === 'ai') {
 			print_slowly(term, ascii_ai);
-		} else if (inputs[0] === 'user') {
-			if (inputs[1] != undefined) {
-				user_search(inputs[1]);
-			} else {
-				term.echo("user $id");
-			}
+		} else if (inputs[0] === 'whoami') {
+			term.echo(user_profile);
+		} else if (inputs[0] === 'bsky') {
+			print_slowly(term, timeline);
+		} else if (inputs[0] === 'card') {
+			term.echo(all_card);
+		} else if (inputs[0] === 'slide') {
+			window.location.href = '/slidev/#/1';
 		} else {
 			term.error(command + " is not a valid command");
+			term.echo(command_all);
 		}
 	}
 
@@ -127,7 +138,8 @@ $('#terminal').terminal(interpreter, {
 	exit: false,
 	height: 450,
 	onInit: function(term) {
-			//print_slowly(term, ascii_ai);
+		//term.insert("ai");
+		//print_slowly(term, ascii_ai);
 	},
 	completion: function(term, string, callback) {
 		var t = $(term[0]).text();
