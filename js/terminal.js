@@ -108,7 +108,7 @@ $(function() {
 		} else if (inputs[0] === 'card') {
 			term.echo(all_card);
 		} else if (inputs[0] === 'slide') {
-			window.location.href = '/slidev';
+			window.location.href = '/slidev/#/1';
 		} else {
 			term.error(command + " is not a valid command");
 			term.echo(command_all);
