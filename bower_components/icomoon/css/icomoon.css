@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?czi5du');
-  src:  url('../fonts/icomoon.eot?czi5du#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?czi5du') format('truetype'),
-    url('../fonts/icomoon.woff?czi5du') format('woff'),
-    url('../fonts/icomoon.svg?czi5du#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?6sruqa');
+  src:  url('../fonts/icomoon.eot?6sruqa#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?6sruqa') format('truetype'),
+    url('../fonts/icomoon.woff?6sruqa') format('woff'),
+    url('../fonts/icomoon.svg?6sruqa#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,48 +25,1387 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ai:before {
-  content: "\e908";
+.icon-moji_k .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
 }
-.icon-robot:before {
-  content: "\e909";
+.icon-moji_k .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(63, 59, 7);
+  opacity: 0.412;
 }
-.icon-api:before {
-  content: "\e90e";
-}
-.icon-sandar:before {
-  content: "\e90a";
-}
-.icon-moon:before {
-  content: "\e90b";
-}
-.icon-home:before {
-  content: "\e90c";
-}
-.icon-cloud:before {
-  content: "\e90d";
-}
-.icon-phoenix:before {
-  content: "\e906";
-}
-.icon-honeycomb:before {
-  content: "\e907";
-}
-.icon-phoenix-power:before {
-  content: "\e903";
-}
-.icon-phoenix-world:before {
-  content: "\e904";
-}
-.icon-power:before {
-  content: "\e905";
-}
-.icon-syui:before {
+.icon-moji_k .path3:before {
   content: "\e902";
+  margin-left: -1em;
+  color: rgb(244, 229, 23);
+  opacity: 0.0270;
+}
+.icon-moji_k .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(245, 230, 23);
+  opacity: 0.0240;
+}
+.icon-moji_k .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(70, 66, 7);
+  opacity: 0.624;
+}
+.icon-moji_k .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(66, 62, 7);
+  opacity: 0.659;
+}
+.icon-moji_k .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(237, 222, 23);
+  opacity: 0.0210;
+}
+.icon-moji_k .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(77, 72, 9);
+  opacity: 0.357;
+}
+.icon-moji_k .path9:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(82, 77, 9);
+  opacity: 0.463;
+}
+.icon-moji_k .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(29, 27, 4);
+  opacity: 0.661;
+}
+.icon-moji_k .path11:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(34, 32, 4);
+  opacity: 0.7060;
+}
+.icon-moji_k .path12:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(67, 63, 8);
+  opacity: 0.22;
+}
+.icon-moji_k .path13:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(65, 61, 8);
+  opacity: 0.486;
+}
+.icon-moji_k .path14:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(84, 79, 9);
+  opacity: 0.129;
+}
+.icon-moji_k .path15:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(73, 68, 9);
+  opacity: 0.7060;
+}
+.icon-moji_k .path16:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(90, 84, 8);
+  opacity: 0.1080;
+}
+.icon-moji_k .path17:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(80, 75, 9);
+  opacity: 0.5020;
+}
+.icon-moji_k .path18:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(42, 40, 5);
+  opacity: 0.388;
+}
+.icon-moji_k .path19:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(61, 57, 11);
+  opacity: 0.914;
+}
+.icon-moji_k .path20:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(87, 82, 8);
+  opacity: 0.192;
+}
+.icon-moji_k .path21:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(88, 83, 9);
+  opacity: 0.288;
+}
+.icon-moji_k .path22:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(205, 192, 20);
+  opacity: 0.0120;
+}
+.icon-moji_k .path23:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(67, 63, 9);
+  opacity: 0.157;
+}
+.icon-moji_k .path24:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(96, 90, 10);
+  opacity: 0.0780;
+}
+.icon-moji_k .path25:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(144, 135, 13);
+  opacity: 0.0550;
+}
+.icon-moji_k .path26:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(67, 63, 11);
+  opacity: 0.733;
+}
+.icon-moji_k .path27:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(63, 59, 7);
+  opacity: 0.785;
+}
+.icon-moji_k .path28:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(80, 75, 9);
+  opacity: 0.231;
+}
+.icon-moji_k .path29:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(121, 113, 11);
+  opacity: 0.224;
+}
+.icon-moji_k .path30:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(232, 218, 22);
+  opacity: 0.0140;
+}
+.icon-moji_k .path31:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(40, 38, 5);
+  opacity: 0.681;
+}
+.icon-moji_k .path32:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(105, 98, 10);
+  opacity: 0.5060;
+}
+.icon-moji_k .path33:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(111, 104, 11);
+  opacity: 0.145;
+}
+.icon-moji_k .path34:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(69, 65, 7);
+  opacity: 0.392;
+}
+.icon-moji_k .path35:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(58, 55, 6);
+  opacity: 0.545;
+}
+.icon-moji_k .path36:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(51, 48, 6);
+  opacity: 0.294;
+}
+.icon-moji_k .path37:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(229, 215, 22);
+  opacity: 0.0110;
+}
+.icon-moji_k .path38:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(64, 60, 7);
+  opacity: 0.596;
+}
+.icon-moji_k .path39:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(238, 223, 23);
+  opacity: 0.0120;
+}
+.icon-moji_k .path40:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(53, 50, 8);
+  opacity: 0.4080;
+}
+.icon-moji_k .path41:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(84, 79, 10);
+  opacity: 0.2020;
+}
+.icon-moji_k .path42:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(84, 79, 9);
+  opacity: 0.512;
+}
+.icon-moji_k .path43:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(175, 165, 17);
+  opacity: 0.0450;
+}
+.icon-moji_k .path44:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(66, 62, 9);
+  opacity: 0.147;
+}
+.icon-moji_k .path45:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(92, 87, 9);
+  opacity: 0.0470;
+}
+.icon-moji_k .path46:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(97, 91, 10);
+  opacity: 0.157;
+}
+.icon-moji_k .path47:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(201, 189, 19);
+  opacity: 0.0150;
+}
+.icon-moji_k .path48:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(90, 85, 9);
+  opacity: 0.0470;
+}
+.icon-moji_k .path49:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(44, 42, 8);
+  opacity: 0.745;
+}
+.icon-moji_k .path50:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(58, 55, 9);
+  opacity: 0.89;
+}
+.icon-moji_k .path51:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(244, 229, 23);
+  opacity: 0.0210;
+}
+.icon-moji_k .path52:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(67, 63, 8);
+  opacity: 0.616;
+}
+.icon-moji_k .path53:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(66, 62, 10);
+  opacity: 0.831;
+}
+.icon-moji_k .path54:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(92, 86, 9);
+  opacity: 0.192;
+}
+.icon-moji_k .path55:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(61, 57, 9);
+  opacity: 0.235;
+}
+.icon-moji_k .path56:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(65, 62, 8);
+  opacity: 0.651;
+}
+.icon-moji_k .path57:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(76, 72, 8);
+  opacity: 0.22;
+}
+.icon-moji_k .path58:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(83, 78, 8);
+  opacity: 0.123;
+}
+.icon-moji_k .path59:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(49, 46, 8);
+  opacity: 0.759;
+}
+.icon-moji_k .path60:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(58, 55, 9);
+  opacity: 0.71;
+}
+.icon-moji_k .path61:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(75, 70, 8);
+  opacity: 0.518;
+}
+.icon-moji_k .path62:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(43, 41, 7);
+  opacity: 0.671;
+}
+.icon-moji_k .path63:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(245, 231, 23);
+  opacity: 0.0190;
+}
+.icon-moji_k .path64:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(60, 57, 8);
+  opacity: 0.369;
+}
+.icon-moji_k .path65:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(83, 78, 8);
+  opacity: 0.0940;
+}
+.icon-moji_k .path66:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(48, 45, 6);
+  opacity: 0.116;
+}
+.icon-moji_k .path67:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(64, 60, 8);
+  opacity: 0.714;
+}
+.icon-moji_k .path68:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(80, 75, 8);
+  opacity: 0.518;
+}
+.icon-moji_k .path69:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(60, 56, 7);
+  opacity: 0.7020;
+}
+.icon-moji_k .path70:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(130, 122, 13);
+  opacity: 0.0940;
+}
+.icon-moji_k .path71:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(117, 110, 11);
+  opacity: 0.196;
+}
+.icon-moji_k .path72:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(59, 56, 7);
+  opacity: 0.212;
+}
+.icon-moji_k .path73:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(56, 53, 7);
+  opacity: 0.325;
+}
+.icon-moji_k .path74:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(40, 38, 5);
+  opacity: 0.631;
+}
+.icon-moji_k .path75:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(245, 230, 23);
+  opacity: 0.0200;
+}
+.icon-moji_k .path76:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(245, 230, 23);
+  opacity: 0.0220;
+}
+.icon-moji_k .path77:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(62, 58, 9);
+  opacity: 0.857;
+}
+.icon-moji_k .path78:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(44, 42, 6);
+  opacity: 0.215;
+}
+.icon-moji_k .path79:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(82, 77, 8);
+  opacity: 0.447;
+}
+.icon-moji_k .path80:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(232, 218, 22);
+  opacity: 0.0150;
+}
+.icon-moji_k .path81:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(68, 64, 7);
+  opacity: 0.59;
+}
+.icon-moji_k .path82:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(120, 113, 11);
+  opacity: 0.0270;
+}
+.icon-moji_k .path83:before {
+  content: "\e952";
+  margin-left: -1em;
+  color: rgb(78, 73, 8);
+  opacity: 0.0870;
+}
+.icon-moji_k .path84:before {
+  content: "\e953";
+  margin-left: -1em;
+  color: rgb(34, 32, 3);
+  opacity: 0.791;
+}
+.icon-moji_k .path85:before {
+  content: "\e954";
+  margin-left: -1em;
+  color: rgb(91, 86, 8);
+  opacity: 0.118;
+}
+.icon-moji_k .path86:before {
+  content: "\e955";
+  margin-left: -1em;
+  color: rgb(86, 80, 8);
+  opacity: 0.0880;
+}
+.icon-moji_k .path87:before {
+  content: "\e956";
+  margin-left: -1em;
+  color: rgb(55, 52, 7);
+  opacity: 0.322;
+}
+.icon-moji_k .path88:before {
+  content: "\e957";
+  margin-left: -1em;
+  color: rgb(58, 55, 7);
+  opacity: 0.284;
+}
+.icon-moji_k .path89:before {
+  content: "\e958";
+  margin-left: -1em;
+  color: rgb(69, 65, 7);
+  opacity: 0.545;
+}
+.icon-moji_k .path90:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(36, 34, 5);
+  opacity: 0.324;
+}
+.icon-moji_k .path91:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(62, 58, 8);
+  opacity: 0.2;
+}
+.icon-moji_k .path92:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(88, 83, 9);
+  opacity: 0.165;
+}
+.icon-moji_k .path93:before {
+  content: "\e95c";
+  margin-left: -1em;
+  color: rgb(119, 112, 11);
+  opacity: 0.0510;
+}
+.icon-moji_k .path94:before {
+  content: "\e95d";
+  margin-left: -1em;
+  color: rgb(76, 71, 9);
+  opacity: 0.0310;
+}
+.icon-moji_k .path95:before {
+  content: "\e95e";
+  margin-left: -1em;
+  color: rgb(68, 64, 7);
+  opacity: 0.459;
+}
+.icon-moji_k .path96:before {
+  content: "\e95f";
+  margin-left: -1em;
+  color: rgb(170, 160, 16);
+  opacity: 0.0200;
+}
+.icon-moji_k .path97:before {
+  content: "\e960";
+  margin-left: -1em;
+  color: rgb(59, 56, 7);
+  opacity: 0.129;
+}
+.icon-moji_k .path98:before {
+  content: "\e961";
+  margin-left: -1em;
+  color: rgb(69, 65, 8);
+  opacity: 0.184;
+}
+.icon-moji_k .path99:before {
+  content: "\e962";
+  margin-left: -1em;
+  color: rgb(53, 50, 6);
+  opacity: 0.412;
+}
+.icon-moji_k .path100:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(71, 67, 8);
+  opacity: 0.0710;
+}
+.icon-moji_k .path101:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(59, 56, 7);
+  opacity: 0.482;
+}
+.icon-moji_k .path102:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(88, 82, 9);
+  opacity: 0.412;
+}
+.icon-moji_k .path103:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(71, 67, 7);
+  opacity: 0.145;
+}
+.icon-moji_k .path104:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(39, 37, 6);
+  opacity: 0.68;
+}
+.icon-moji_k .path105:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(57, 53, 8);
+  opacity: 0.459;
+}
+.icon-moji_k .path106:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(63, 60, 8);
+  opacity: 0.0820;
+}
+.icon-moji_k .path107:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(84, 79, 8);
+  opacity: 0.325;
+}
+.icon-moji_k .path108:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(100, 93, 10);
+  opacity: 0.0980;
+}
+.icon-moji_k .path109:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(84, 78, 8);
+  opacity: 0.184;
+}
+.icon-moji_k .path110:before {
+  content: "\e96d";
+  margin-left: -1em;
+  color: rgb(69, 65, 8);
+  opacity: 0.718;
+}
+.icon-moji_k .path111:before {
+  content: "\e96e";
+  margin-left: -1em;
+  color: rgb(89, 84, 9);
+  opacity: 0.159;
+}
+.icon-moji_k .path112:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(81, 76, 8);
+  opacity: 0.439;
+}
+.icon-moji_k .path113:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(51, 49, 9);
+  opacity: 0.576;
+}
+.icon-moji_k .path114:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(45, 42, 7);
+  opacity: 0.665;
+}
+.icon-moji_k .path115:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(47, 44, 7);
+  opacity: 0.245;
+}
+.icon-moji_k .path116:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(113, 106, 10);
+  opacity: 0.0920;
+}
+.icon-moji_k .path117:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(71, 67, 10);
+  opacity: 0.914;
+}
+.icon-moji_k .path118:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(82, 78, 9);
+  opacity: 0.267;
+}
+.icon-moji_k .path119:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(73, 68, 9);
+  opacity: 0.624;
+}
+.icon-moji_k .path120:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(87, 82, 9);
+  opacity: 0.388;
+}
+.icon-moji_k .path121:before {
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(97, 92, 10);
+  opacity: 0.1020;
+}
+.icon-moji_k .path122:before {
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(80, 75, 8);
+  opacity: 0.2040;
+}
+.icon-moji_k .path123:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(224, 210, 21);
+  opacity: 0.0070;
+}
+.icon-moji_k .path124:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(180, 169, 17);
+  opacity: 0.0350;
+}
+.icon-moji_k .path125:before {
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(61, 57, 8);
+  opacity: 0.29;
+}
+.icon-moji_k .path126:before {
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(103, 97, 10);
+  opacity: 0.125;
+}
+.icon-moji_k .path127:before {
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(98, 92, 10);
+  opacity: 0.1020;
+}
+.icon-moji_k .path128:before {
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(53, 50, 9);
+  opacity: 0.957;
+}
+.icon-moji_k .path129:before {
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(76, 72, 8);
+  opacity: 0.176;
+}
+.icon-moji_k .path130:before {
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(99, 93, 10);
+  opacity: 0.0270;
+}
+.icon-moji_k .path131:before {
+  content: "\e982";
+  margin-left: -1em;
+  color: rgb(77, 72, 7);
+  opacity: 0.0590;
+}
+.icon-moji_k .path132:before {
+  content: "\e983";
+  margin-left: -1em;
+  color: rgb(77, 73, 10);
+  opacity: 0.3020;
+}
+.icon-moji_k .path133:before {
+  content: "\e984";
+  margin-left: -1em;
+  color: rgb(68, 64, 8);
+  opacity: 0.569;
+}
+.icon-moji_k .path134:before {
+  content: "\e985";
+  margin-left: -1em;
+  color: rgb(75, 70, 8);
+  opacity: 0.165;
+}
+.icon-moji_k .path135:before {
+  content: "\e986";
+  margin-left: -1em;
+  color: rgb(72, 68, 8);
+  opacity: 0.124;
+}
+.icon-moji_k .path136:before {
+  content: "\e987";
+  margin-left: -1em;
+  color: rgb(83, 78, 10);
+  opacity: 0.173;
+}
+.icon-moji_k .path137:before {
+  content: "\e988";
+  margin-left: -1em;
+  color: rgb(131, 123, 13);
+  opacity: 0.184;
+}
+.icon-moji_k .path138:before {
+  content: "\e989";
+  margin-left: -1em;
+  color: rgb(94, 88, 9);
+  opacity: 0.145;
+}
+.icon-moji_k .path139:before {
+  content: "\e98a";
+  margin-left: -1em;
+  color: rgb(112, 105, 11);
+  opacity: 0.0940;
+}
+.icon-moji_k .path140:before {
+  content: "\e98b";
+  margin-left: -1em;
+  color: rgb(71, 66, 10);
+  opacity: 0.588;
+}
+.icon-moji_k .path141:before {
+  content: "\e98c";
+  margin-left: -1em;
+  color: rgb(129, 122, 12);
+  opacity: 0.0940;
+}
+.icon-moji_k .path142:before {
+  content: "\e98d";
+  margin-left: -1em;
+  color: rgb(81, 77, 9);
+  opacity: 0.3020;
+}
+.icon-moji_k .path143:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(40, 38, 5);
+  opacity: 0.612;
+}
+.icon-moji_k .path144:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(124, 117, 12);
+  opacity: 0.0860;
+}
+.icon-moji_k .path145:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(173, 163, 17);
+  opacity: 0.1060;
+}
+.icon-moji_k .path146:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(85, 80, 8);
+  opacity: 0.333;
+}
+.icon-moji_k .path147:before {
+  content: "\e992";
+  margin-left: -1em;
+  color: rgb(84, 79, 9);
+  opacity: 0.0410;
+}
+.icon-moji_k .path148:before {
+  content: "\e993";
+  margin-left: -1em;
+  color: rgb(84, 79, 9);
+  opacity: 0.0310;
+}
+.icon-moji_k .path149:before {
+  content: "\e994";
+  margin-left: -1em;
+  color: rgb(77, 72, 8);
+  opacity: 0.125;
+}
+.icon-moji_k .path150:before {
+  content: "\e995";
+  margin-left: -1em;
+  color: rgb(245, 230, 24);
+  opacity: 0.0120;
+}
+.icon-moji_k .path151:before {
+  content: "\e996";
+  margin-left: -1em;
+  color: rgb(218, 204, 21);
+  opacity: 0.0100;
+}
+.icon-moji_k .path152:before {
+  content: "\e997";
+  margin-left: -1em;
+  color: rgb(60, 56, 6);
+  opacity: 0.333;
+}
+.icon-moji_k .path153:before {
+  content: "\e998";
+  margin-left: -1em;
+  color: rgb(57, 54, 11);
+  opacity: 0.812;
+}
+.icon-moji_k .path154:before {
+  content: "\e999";
+  margin-left: -1em;
+  color: rgb(95, 90, 10);
+  opacity: 0.114;
+}
+.icon-moji_k .path155:before {
+  content: "\e99a";
+  margin-left: -1em;
+  color: rgb(70, 66, 8);
+  opacity: 0.349;
+}
+.icon-moji_k .path156:before {
+  content: "\e99b";
+  margin-left: -1em;
+  color: rgb(74, 69, 9);
+  opacity: 0.345;
+}
+.icon-moji_k .path157:before {
+  content: "\e99c";
+  margin-left: -1em;
+  color: rgb(95, 89, 10);
+  opacity: 0.357;
+}
+.icon-moji_k .path158:before {
+  content: "\e99d";
+  margin-left: -1em;
+  color: rgb(90, 84, 11);
+  opacity: 0.7060;
+}
+.icon-moji_k .path159:before {
+  content: "\e99e";
+  margin-left: -1em;
+  color: rgb(73, 69, 8);
+  opacity: 0.361;
+}
+.icon-moji_k .path160:before {
+  content: "\e99f";
+  margin-left: -1em;
+  color: rgb(75, 70, 8);
+  opacity: 0.2080;
+}
+.icon-moji_k .path161:before {
+  content: "\e9a0";
+  margin-left: -1em;
+  color: rgb(86, 81, 9);
+  opacity: 0.416;
+}
+.icon-moji_k .path162:before {
+  content: "\e9a1";
+  margin-left: -1em;
+  color: rgb(109, 102, 11);
+  opacity: 0.0820;
+}
+.icon-moji_k .path163:before {
+  content: "\e9a2";
+  margin-left: -1em;
+  color: rgb(112, 105, 12);
+  opacity: 0.0590;
+}
+.icon-moji_k .path164:before {
+  content: "\e9a3";
+  margin-left: -1em;
+  color: rgb(66, 62, 9);
+  opacity: 0.68;
+}
+.icon-moji_k .path165:before {
+  content: "\e9a4";
+  margin-left: -1em;
+  color: rgb(102, 95, 10);
+  opacity: 0.255;
+}
+.icon-moji_k .path166:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(67, 63, 10);
+  opacity: 0.3020;
+}
+.icon-moji_k .path167:before {
+  content: "\e9a6";
+  margin-left: -1em;
+  color: rgb(83, 78, 9);
+  opacity: 0.384;
+}
+.icon-moji_k .path168:before {
+  content: "\e9a7";
+  margin-left: -1em;
+  color: rgb(93, 87, 9);
+  opacity: 0.0780;
+}
+.icon-moji_k .path169:before {
+  content: "\e9a8";
+  margin-left: -1em;
+  color: rgb(60, 57, 9);
+  opacity: 0.711;
+}
+.icon-moji_k .path170:before {
+  content: "\e9a9";
+  margin-left: -1em;
+  color: rgb(245, 230, 23);
+  opacity: 0.0190;
+}
+.icon-moji_k .path171:before {
+  content: "\e9aa";
+  margin-left: -1em;
+  color: rgb(64, 60, 9);
+  opacity: 0.239;
+}
+.icon-moji_k .path172:before {
+  content: "\e9ab";
+  margin-left: -1em;
+  color: rgb(74, 70, 8);
+  opacity: 0.282;
+}
+.icon-moji_k .path173:before {
+  content: "\e9ac";
+  margin-left: -1em;
+  color: rgb(238, 224, 23);
+  opacity: 0.0110;
+}
+.icon-moji_k .path174:before {
+  content: "\e9ad";
+  margin-left: -1em;
+  color: rgb(138, 129, 13);
+  opacity: 0.0590;
+}
+.icon-moji_k .path175:before {
+  content: "\e9ae";
+  margin-left: -1em;
+  color: rgb(67, 63, 8);
+  opacity: 0.2;
+}
+.icon-moji_k .path176:before {
+  content: "\e9af";
+  margin-left: -1em;
+  color: rgb(80, 75, 8);
+  opacity: 0.0670;
+}
+.icon-moji_k .path177:before {
+  content: "\e9b0";
+  margin-left: -1em;
+  color: rgb(245, 230, 23);
+  opacity: 0.0360;
+}
+.icon-moji_k .path178:before {
+  content: "\e9b1";
+  margin-left: -1em;
+  color: rgb(77, 72, 8);
+  opacity: 0.443;
+}
+.icon-moji_k .path179:before {
+  content: "\e9b2";
+  margin-left: -1em;
+  color: rgb(85, 79, 8);
+  opacity: 0.561;
+}
+.icon-moji_k .path180:before {
+  content: "\e9b3";
+  margin-left: -1em;
+  color: rgb(63, 59, 9);
+  opacity: 0.361;
+}
+.icon-moji_k .path181:before {
+  content: "\e9b4";
+  margin-left: -1em;
+  color: rgb(76, 71, 7);
+  opacity: 0.822;
+}
+.icon-moji_k .path182:before {
+  content: "\e9b5";
+  margin-left: -1em;
+  color: rgb(172, 161, 16);
+  opacity: 0.327;
+}
+.icon-moji_k .path183:before {
+  content: "\e9b6";
+  margin-left: -1em;
+  color: rgb(70, 66, 9);
+  opacity: 0.18;
+}
+.icon-moji_k .path184:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(52, 49, 6);
+  opacity: 0.649;
+}
+.icon-moji_k .path185:before {
+  content: "\e9b8";
+  margin-left: -1em;
+  color: rgb(242, 227, 23);
+  opacity: 0.0210;
+}
+.icon-moji_k .path186:before {
+  content: "\e9b9";
+  margin-left: -1em;
+  color: rgb(44, 42, 5);
+  opacity: 0.1060;
+}
+.icon-moji_k .path187:before {
+  content: "\e9ba";
+  margin-left: -1em;
+  color: rgb(89, 84, 9);
+  opacity: 0.433;
+}
+.icon-moji_k .path188:before {
+  content: "\e9bb";
+  margin-left: -1em;
+  color: rgb(49, 46, 7);
+  opacity: 0.6080;
+}
+.icon-moji_k .path189:before {
+  content: "\e9bc";
+  margin-left: -1em;
+  color: rgb(65, 61, 8);
+  opacity: 0.0470;
+}
+.icon-moji_k .path190:before {
+  content: "\e9bd";
+  margin-left: -1em;
+  color: rgb(64, 60, 7);
+  opacity: 0.455;
+}
+.icon-moji_k .path191:before {
+  content: "\e9be";
+  margin-left: -1em;
+  color: rgb(56, 53, 6);
+  opacity: 0.376;
+}
+.icon-moji_k .path192:before {
+  content: "\e9bf";
+  margin-left: -1em;
+  color: rgb(120, 112, 11);
+  opacity: 0.125;
+}
+.icon-moji_k .path193:before {
+  content: "\e9c0";
+  margin-left: -1em;
+  color: rgb(245, 230, 23);
+  opacity: 0.0220;
+}
+.icon-moji_k .path194:before {
+  content: "\e9c1";
+  margin-left: -1em;
+  color: rgb(147, 138, 14);
+  opacity: 0.147;
+}
+.icon-moji_k .path195:before {
+  content: "\e9c2";
+  margin-left: -1em;
+  color: rgb(55, 52, 5);
+  opacity: 0.388;
+}
+.icon-moji_a:before {
+  content: "\e9c3";
 }
 .icon-archlinux:before {
-  content: "\e900";
+  content: "\e9c4";
 }
 .icon-archlinuxjp:before {
-  content: "\e901";
+  content: "\e9c5";
+}
+.icon-syui:before {
+  content: "\e9c6";
+}
+.icon-phoenix-power:before {
+  content: "\e9c7";
+}
+.icon-phoenix-world:before {
+  content: "\e9c8";
+}
+.icon-power1:before {
+  content: "\e9c9";
+}
+.icon-phoenix:before {
+  content: "\e9ca";
+}
+.icon-honeycomb:before {
+  content: "\e9cb";
+}
+.icon-ai:before {
+  content: "\e9cc";
+}
+.icon-robot:before {
+  content: "\e9cd";
+}
+.icon-sandar:before {
+  content: "\e9ce";
+}
+.icon-moon:before {
+  content: "\e9cf";
+}
+.icon-home:before {
+  content: "\e9d0";
+}
+.icon-cloud:before {
+  content: "\e9d1";
+}
+.icon-api:before {
+  content: "\e9d2";
+}
+.icon-home3:before {
+  content: "\e9d3";
+}
+.icon-image:before {
+  content: "\e9d4";
+}
+.icon-diamonds:before {
+  content: "\e9d5";
+}
+.icon-coin-dollar:before {
+  content: "\e9d6";
+}
+.icon-coin-yen:before {
+  content: "\e9d7";
+}
+.icon-spinner:before {
+  content: "\e9d8";
+}
+.icon-spinner2:before {
+  content: "\e9d9";
+}
+.icon-spinner3:before {
+  content: "\e9da";
+}
+.icon-spinner4:before {
+  content: "\e9db";
+}
+.icon-spinner6:before {
+  content: "\e9dc";
+}
+.icon-spinner7:before {
+  content: "\e9dd";
+}
+.icon-spinner8:before {
+  content: "\e9de";
+}
+.icon-spinner9:before {
+  content: "\e9df";
+}
+.icon-spinner10:before {
+  content: "\e9e0";
+}
+.icon-enlarge:before {
+  content: "\e9e1";
+}
+.icon-shrink:before {
+  content: "\e9e2";
+}
+.icon-fire:before {
+  content: "\e9e3";
+}
+.icon-power:before {
+  content: "\e9e4";
+}
+.icon-switch:before {
+  content: "\e9e5";
+}
+.icon-earth:before {
+  content: "\e9e6";
+}
+.icon-sun:before {
+  content: "\e9e7";
+}
+.icon-contrast:before {
+  content: "\e9e8";
+}
+.icon-brightness-contrast:before {
+  content: "\e9e9";
+}
+.icon-star-empty:before {
+  content: "\e9ea";
+}
+.icon-star-half:before {
+  content: "\e9eb";
+}
+.icon-star-full:before {
+  content: "\e9ec";
+}
+.icon-heart:before {
+  content: "\e9ed";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
+.icon-checkbox-unchecked:before {
+  content: "\ea53";
+}
+.icon-radio-checked:before {
+  content: "\ea54";
+}
+.icon-radio-checked2:before {
+  content: "\ea55";
+}
+.icon-radio-unchecked:before {
+  content: "\ea56";
+}
+.icon-embed:before {
+  content: "\ea7f";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-terminal:before {
+  content: "\ea81";
+}
+.icon-share2:before {
+  content: "\ea82";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-rss2:before {
+  content: "\ea9c";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-twitch:before {
+  content: "\ea9f";
+}
+.icon-flickr:before {
+  content: "\eaa3";
+}
+.icon-flickr2:before {
+  content: "\eaa4";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-soundcloud:before {
+  content: "\eac3";
+}
+.icon-soundcloud2:before {
+  content: "\eac4";
+}
+.icon-chrome:before {
+  content: "\ead9";
+}
+.icon-firefox:before {
+  content: "\eada";
+}
+.icon-safari:before {
+  content: "\eadd";
+}
+.icon-html-five:before {
+  content: "\eae4";
+}
+.icon-html-five2:before {
+  content: "\eae5";
+}
+.icon-git:before {
+  content: "\eae7";
+}
+.icon-codepen:before {
+  content: "\eae8";
+}
+.icon-svg:before {
+  content: "\eae9";
+}
+.icon-IcoMoon:before {
+  content: "\eaea";
 }
